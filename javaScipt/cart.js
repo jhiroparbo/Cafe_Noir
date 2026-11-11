@@ -132,7 +132,7 @@ document.getElementById("checkoutButton").onclick = function() {
         let confirmCheckout = confirm("Do you want to proceed to checkout?");
 
         if (confirmCheckout) {
-            window.location.href = "checkout.html";
+            window.location.href = "checkOut.html";
         }
 
     }
